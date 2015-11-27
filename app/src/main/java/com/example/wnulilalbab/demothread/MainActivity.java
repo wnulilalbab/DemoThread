@@ -29,7 +29,7 @@ public class MainActivity extends Activity {
     //use Handler
     private Handler handler;
 
-    //stopwatch
+    //berhenti watch
     ListView listTime;
     ArrayAdapter listAdapter = null;
     Integer collectNumber = 1;

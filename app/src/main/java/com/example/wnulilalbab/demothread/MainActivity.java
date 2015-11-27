@@ -76,7 +76,7 @@ public class MainActivity extends Activity {
             watchThread.start();
             viewButton.setText("Stop");
         }else{
-            //numberThread.interrupt();
+
             runningStatus = false;
             viewButton.setText("Start");
         }
